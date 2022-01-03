@@ -59,7 +59,7 @@ header {
     margin: 0px 183px;
 }
 
-.coltw {
+.mainwords {
     color: #000000; 
 }
 
@@ -98,7 +98,6 @@ header {
     height: 80px;
     margin: 10px 40px 10px 40px;
     box-shadow: -5px 5px 4px 3px rgba(0, 0, 0, 0.25);   
-    
 }
 
 .leftblock .download .click-cv {
@@ -112,17 +111,16 @@ header {
     color: #000000;
 }
 
-.click-cv img{
+.click-cv img {
     vertical-align: middle;
     width: 50px;
     height: 50px;
-    }
+}
 
 .contacts-list {
     list-style-type: none;
     margin-left: 20px; 
     padding-left: 0px;
-    
 }
 
 .leftblock .social {
@@ -141,7 +139,6 @@ header {
     width: 300px;
     height: 80px;
     margin: 0px 0px 0px 10px;
-    
 }
 
 .soc img {
@@ -155,7 +152,6 @@ header {
     margin: 0px;
     width: 770px;
     height: 100%;
-
 }
 
 .mainblock .line {
@@ -181,6 +177,7 @@ header {
     padding-left: 0px;
     line-height: 60px;
 }
+
 .myskill img {
     width: 50px;
     height: 50px;
@@ -203,7 +200,7 @@ header {
     height: 1px;
     margin: 10px 0px 0px 0px;
     border: 3px solid #8B0000;
-box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mainfoot {
