@@ -30,6 +30,16 @@
 > - JavaScript
 > - Photoshop
 
+## **JavaScript:** ##
+
+```
+<script type="text/javascript">
+    function GoUrl(url) {
+        location.href = url;
+    }
+</script>
+```
+
 ## **Education:** ##
 > * International university MITSO 
 >    * Bachelor of Laws - LLB, Jurisprudence · (2012 - 2018)
