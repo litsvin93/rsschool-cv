@@ -8,7 +8,6 @@ body {
     background-color: #fff 
 }
 
-
 h2 {
     width: 299px;
     height: 40px;
@@ -24,12 +23,16 @@ h2 {
     color: #FFFFFF;
 }
 
-button {
-    border: none;
-    background-color: #fff;
-    cursor: pointer;
+pre {
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: -0.010em;
+    border: 3px inset black;
+    margin:20px; 
 }
-
 
 .main-body {
     display: flex;
@@ -49,7 +52,7 @@ header {
 .name-surname {
     display: flex;
     flex-direction: column;
-    margin: 10px 248px;
+    margin: 10px 199px;
     font-size: 48px;
     line-height: 40px;
     letter-spacing: 0.15em;
@@ -59,7 +62,7 @@ header {
     margin: 0px 183px;
 }
 
-.coltw {
+.mainwords {
     color: #000000; 
 }
 
@@ -67,9 +70,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 100px;
     width: 350px;
-    height: 1230px;
+    height: 1255px;
     background-color: #8B0000;
     box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25); 
     color: #fff;
@@ -80,7 +83,7 @@ header {
     position: relative;
     width: 355px;
     height: 360px;
-    margin: 97px -40px 40px;
+    margin: 97px -40px 25px;
 }
 
 .leftblock .photo img {
@@ -96,33 +99,38 @@ header {
     background-color: #fff;
     width: 315px;
     height: 80px;
-    margin: 10px 40px 10px 40px;
+    margin: 10px 40px 20px 40px;
     box-shadow: -5px 5px 4px 3px rgba(0, 0, 0, 0.25);   
-    
 }
 
-.leftblock .download .click-cv {
+a.click-cv {
     width: 300px;
-    height: 65px;
-    margin: 5px;
+    height: 55px;
+    margin: 10px;
+    padding-top: 10px;
+    text-decoration: none;
     font-family: Rozha One;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
+    text-align: center;
     color: #000000;
 }
 
-.click-cv img{
+a.click-cv:hover {
+    color: #ffba00;
+}
+
+.click-cv img {
     vertical-align: middle;
     width: 50px;
     height: 50px;
-    }
+}
 
 .contacts-list {
     list-style-type: none;
     margin-left: 20px; 
     padding-left: 0px;
-    
 }
 
 .leftblock .social {
@@ -130,18 +138,17 @@ header {
     position: relative;
     width: 320px;
     height: 80px;
-    margin: 10px 10px 10px -5px;
+    margin: 10px 10px 20px -5px;
     box-shadow: 5px 5px 4px 3px rgba(0, 0, 0, 0.25);  
 }
 
-.social .social-tw {
+.social .social-snap {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 300px;
-    height: 80px;
-    margin: 0px 0px 0px 10px;
-    
+    height: 70px;
+    margin: 10px 0px 0px 10px;
 }
 
 .soc img {
@@ -152,10 +159,9 @@ header {
 .main-body .mainblock {
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0px 40px 0px 0px;
     width: 770px;
     height: 100%;
-
 }
 
 .mainblock .line {
@@ -175,12 +181,39 @@ header {
     color: #000000;
 }
 
+.main-myskill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading-1 {
+    margin: 0px;
+    width: 250px;
+}
+
+.heading-2 {
+    margin: 0px 20px;
+    width: 300px;
+}
+
+.mycode {
+    margin: 20px; 
+    padding: 0px;
+    line-height: 60px;
+    width: 300px;
+    height: 350px;
+}
+
 .myskill {
     list-style-type: none;
-    margin-left: 20px; 
+    margin: 20px; 
     padding-left: 0px;
     line-height: 60px;
+    width: 200px;
 }
+
 .myskill img {
     width: 50px;
     height: 50px;
@@ -198,12 +231,12 @@ header {
     background: #FFFFFF;
 }
 
-.finish .sline {
+.finish .line-1 {
     width: 1115px;
     height: 1px;
     margin: 10px 0px 0px 0px;
     border: 3px solid #8B0000;
-box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mainfoot {
